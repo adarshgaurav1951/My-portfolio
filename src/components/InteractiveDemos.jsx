@@ -60,14 +60,15 @@ export default function InteractiveDemos() {
     const canvas = canvasRef.current;
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
+    if (!ctx) return;
     let animationId;
 
-    let width = (canvas.width = canvas.parentElement.clientWidth || 600);
+    let width = (canvas.width = canvas.parentElement?.clientWidth || 600);
     let height = (canvas.height = 180);
 
     const handleResize = () => {
-      if (!canvas || !canvas.parentElement) return;
-      width = canvas.width = canvas.parentElement.clientWidth;
+      if (!canvas) return;
+      width = canvas.width = canvas.parentElement?.clientWidth || 600;
       height = canvas.height = 180;
     };
     window.addEventListener('resize', handleResize);

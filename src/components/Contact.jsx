@@ -23,7 +23,20 @@ export default function Contact() {
   const [status, setStatus] = useState('idle'); // idle, sending, success, error
 
   const handleCopy = (text, field) => {
-    navigator.clipboard.writeText(text);
+    if (navigator?.clipboard?.writeText) {
+      navigator.clipboard.writeText(text).catch(() => {});
+    } else {
+      try {
+        const textarea = document.createElement('textarea');
+        textarea.value = text;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand('copy');
+        document.body.removeChild(textarea);
+      } catch (err) {
+        // ignore copy error
+      }
+    }
     setCopiedField(field);
     setTimeout(() => setCopiedField(null), 2000);
   };

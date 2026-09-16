@@ -1,37 +1,31 @@
 # ADARSH GAURAV
-**Data Scientist | Machine Learning Engineer**  
+**Data Scientist | Machine Learning & Agentic AI Engineer**  
 Bilaspur, India | +91 7033375667 | [adarshgaurav1624@gmail.com](mailto:adarshgaurav1624@gmail.com)  
 [LinkedIn](https://linkedin.com/in/adarsh-gaurav) | [GitHub](https://github.com/adarshgaurav1951)
 
 ---
 
 ## PROFESSIONAL SUMMARY
-**Data Scientist** and Computer Science undergraduate specializing in end-to-end Machine Learning pipelines, predictive modeling, statistical analysis, and Generative AI (RAG). Proficient in Python, SQL, PyTorch, and Scikit-learn, with proven success designing multimodal deep learning architectures achieving **96%+ classification accuracy** and sub-150ms REST API inference. Adept at high-dimensional feature engineering, Bayesian hyperparameter optimization (Optuna), and converting complex algorithmic outputs into data-driven business decisions.
+**Data Scientist** and Computer Science undergraduate with proven industry experience designing and deploying scalable **data pipelines**, statistical predictive models, and production **Agentic AI systems**. Demonstrated track record optimizing end-to-end data workflows for real-world AI model training—improving Agentic AI execution performance by **92%** and substantially reducing latency across internal tools and multi-client projects. Proficient in Python, SQL, PyTorch, Scikit-learn, and RAG architectures, with expertise translating complex engineering workflows into high-impact, low-latency AI solutions.
 
 ---
 
 ## TECHNICAL SKILLS
+- **Agentic AI & GenAI:** Agentic Workflows, Multi-Agent Systems, Tool-Calling, Retrieval-Augmented Generation (RAG), Vector Embeddings (BGE-M3), Semantic Search, OpenAI Whisper, Prompt Engineering, Ollama (Llama 3.2)
 - **Machine Learning & Modeling:** Supervised & Unsupervised Learning, XGBoost, LightGBM, Random Forest, Logistic Regression, SVM, K-Means, Cross-Validation, Hyperparameter Tuning (Optuna, GridSearchCV), Model Evaluation (ROC-AUC, PR-AUC, F1-Score)
-- **Deep Learning & GenAI:** PyTorch, CNN, BiLSTM, Transformers, Multimodal Data Fusion, Retrieval-Augmented Generation (RAG), Vector Embeddings (BGE-M3), Semantic Search, OpenAI Whisper, Prompt Engineering, Ollama (Llama 3.2)
-- **Data Analytics & Engineering:** Python, Pandas, NumPy, SQL (PostgreSQL, MySQL), Feature Engineering, Exploratory Data Analysis (EDA), Statistical Hypothesis Testing, Data Imputation, Matplotlib, Seaborn, Time-Series & Signal Processing
-- **Developer Tools & Deployment:** FastAPI, Git, GitHub, Docker (Basics), Google Cloud Platform (GCP), RESTful APIs, Linux/Bash, VS Code, Google Colab
+- **Deep Learning & Data Engineering:** PyTorch, CNN, BiLSTM, Transformers, Multimodal Data Fusion, Data Pipelines, Feature Engineering, Exploratory Data Analysis (EDA), Signal Processing (ECG), Data Cleaning & Imputation
+- **Languages, DB & Tools:** Python, SQL (PostgreSQL, MySQL), C/C++, Java, JavaScript, FastAPI, Git, GitHub, Docker (Basics), Google Cloud Platform (GCP), RESTful APIs, Linux/Bash, VS Code, Google Colab
 
 ---
 
 ## WORK EXPERIENCE
 
-### **Data Science Intern** | CodSoft  
-*June 2025 – July 2025 | Remote*
-- Conducted end-to-end **Exploratory Data Analysis (EDA)** and feature engineering on 100K+ transactional records using **Python (Pandas, NumPy)**, uncovering key customer behavioral patterns and data distributions.
-- Built and evaluated predictive classification models (Random Forest, XGBoost, Logistic Regression); resolved target imbalance via **SMOTE** and achieved an **88.4% F1-score** (+14.2% over baseline heuristics).
-- Formulated 20+ predictive indicators and executed 5-fold cross-validation with grid search to optimize model convergence.
-- Created interactive data visualizations with **Seaborn and Matplotlib** to communicate feature importances and analytical insights to non-technical stakeholders, driving data-informed business recommendations.
-
-### **Software & Data Engineering Intern** | CodeAlpha  
-*Oct 2024 – Nov 2024 | Remote*
-- Engineered web applications and data capture interfaces with **JavaScript, HTML5, and Tailwind CSS**, optimizing responsive UI components and ensuring zero-loss client-side telemetry.
-- Implemented rigorous client-side input validation and error handling schemas, reducing corrupted data submissions by **28%**.
-- Optimized frontend asynchronous data fetching and API state management, reducing dashboard load times by **35%**.
+### **Data Science Intern** | Darexia Private Limited  
+*June 2026 – Sept 2026*
+- Architected and optimized end-to-end **data pipelines** to ingest, clean, and preprocess high-throughput multimodal and structured datasets for training real-world **Agentic AI** models.
+- Enhanced the execution accuracy and multi-step reasoning performance of **Agentic AI systems by 92%** through systematic prompt engineering, tool-calling validation schemas, and automated feedback loops.
+- Streamlined vector retrieval pipelines and real-time data ingestion flows, significantly reducing system execution latency across existing internal developer tools and client project pipelines.
+- Collaborated across **multiple concurrent client projects and internal tools**, translating business requirements into scalable feature transformations, monitoring model drift, and ensuring high data fidelity via **Python and SQL**.
 
 ---
 

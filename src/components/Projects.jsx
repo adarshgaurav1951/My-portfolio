@@ -85,6 +85,40 @@ export default function Projects({ onOpenCaseStudy }) {
       github: 'https://github.com/adarshgaurav1951',
       hasDemo: true,
       demoTarget: '#rag-demo'
+    },
+    {
+      id: 'churn-prediction',
+      title: 'Customer Churn & Lifetime Value (LTV) Predictive Pipeline',
+      subtitle: 'Production classification & Bayesian optimization on 250K+ customer profiles',
+      badge: '0.91 PR-AUC | 86.5% Recall',
+      badgeType: 'cyan',
+      icon: Database,
+      summary:
+        'Engineered an enterprise-grade churn prediction and customer lifetime value forecasting pipeline on 250K+ customer profiles, resolving severe target imbalance with SMOTE-NC and providing transparent, actionable feature attribution via SHAP.',
+      keyMetrics: [
+        { label: 'PR-AUC', value: '0.91' },
+        { label: 'Recall', value: '86.5%' },
+        { label: 'Dataset Scale', value: '250K+' },
+        { label: 'Expected Attrition', value: '-18%' }
+      ],
+      stack: [
+        'Python',
+        'XGBoost',
+        'LightGBM',
+        'SQL (PostgreSQL)',
+        'Optuna',
+        'SHAP',
+        'Scikit-learn',
+        'Pandas'
+      ],
+      highlights: [
+        'Formulated 30+ Recency-Frequency-Monetary (RFM) and behavioral interaction features via complex SQL window functions and Pandas.',
+        'Mitigated 85:15 class imbalance using SMOTE-NC and tuned gradient boosting hyperparameters with Optuna Bayesian optimization.',
+        'Achieved 0.91 PR-AUC and 86.5% recall, powering retention workflows projected to reduce annual customer churn by 18%.',
+        'Integrated SHAP (SHapley Additive exPlanations) for global and local interpretability, empowering stakeholders with transparent churn drivers.'
+      ],
+      github: 'https://github.com/adarshgaurav1951',
+      hasDemo: false
     }
   ];
 

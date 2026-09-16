@@ -5,6 +5,20 @@ export default function CaseStudyModal({ projectId, onClose }) {
   if (!projectId) return null;
 
   const isHeart = projectId === 'heart-disease';
+  const isRAG = projectId === 'rag-assistant';
+  const isChurn = projectId === 'churn-prediction';
+
+  const getTitle = () => {
+    if (isHeart) return 'Multimodal Deep Learning Framework for Heart Disease Prediction';
+    if (isRAG) return 'RAG-based AI Teaching Assistant with Dense Vector Retrieval';
+    return 'Customer Churn & Lifetime Value (LTV) Predictive Pipeline';
+  };
+
+  const getIcon = () => {
+    if (isHeart) return <Activity size={24} className="cyan-icon" />;
+    if (isRAG) return <BrainCircuit size={24} className="violet-icon" />;
+    return <Database size={24} className="emerald-icon" />;
+  };
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -13,15 +27,11 @@ export default function CaseStudyModal({ projectId, onClose }) {
         <div className="modal-header">
           <div className="modal-title-group">
             <div className="modal-icon-wrap">
-              {isHeart ? <Activity size={24} className="cyan-icon" /> : <BrainCircuit size={24} className="violet-icon" />}
+              {getIcon()}
             </div>
             <div>
               <span className="badge badge-cyan mono">ARCHITECTURAL DEEP DIVE</span>
-              <h2 className="modal-title">
-                {isHeart
-                  ? 'Multimodal Deep Learning Framework for Heart Disease Prediction'
-                  : 'RAG-based AI Teaching Assistant with Dense Vector Retrieval'}
-              </h2>
+              <h2 className="modal-title">{getTitle()}</h2>
             </div>
           </div>
           <button className="modal-close-btn" onClick={onClose} aria-label="Close modal">
@@ -182,6 +192,95 @@ export default function CaseStudyModal({ projectId, onClose }) {
                     <span className="chip-lbl">Citation Grounding Accuracy</span>
                   </div>
                 </div>
+              </div>
+            </div>
+          ) : (
+            <div className="case-study-details">
+              {/* Problem & Solution */}
+              <div className="case-study-section">
+                <h3 className="section-subtitle mono">01 / PROBLEM STATEMENT & RETENTION ECONOMICS</h3>
+                <p className="case-text">
+                  Customer acquisition costs across subscription and SaaS platforms are at an all-time high, making retention
+                  the primary growth lever. Legacy heuristic rule engines fail to capture non-linear engagement decay curves and
+                  crumble under extreme target class imbalance (85% retained vs. 15% churned).
+                </p>
+                <div className="callout-box glass-panel">
+                  <strong>Solution:</strong> A scalable feature engineering pipeline extracting 30+ Recency-Frequency-Monetary (RFM)
+                  indicators via SQL window functions, synthetic minority oversampling via SMOTE-NC, and gradient boosting trees
+                  optimized through Bayesian search (Optuna) with SHAP explainability.
+                </div>
+              </div>
+
+              {/* Architecture Diagram */}
+              <div className="case-study-section">
+                <h3 className="section-subtitle mono">02 / END-TO-END DATA & ML PIPELINE</h3>
+                <div className="arch-flow-box glass-panel mono">
+                  <div className="arch-node cyan-border full-node">
+                    <span className="node-title">1. SQL Feature Store & RFM Velocity Engineering</span>
+                    <span className="node-sub">Aggregates 250K+ transactional & session events &rarr; Generates 30+ behavioral momentum metrics</span>
+                  </div>
+                  <div className="arch-plus">&darr;</div>
+                  <div className="arch-node violet-border full-node">
+                    <span className="node-title">2. Class Imbalance Handling (SMOTE-NC) & Bayesian Tuning</span>
+                    <span className="node-sub">Synthesizes minority churn instances preserving categorical dependencies &rarr; Optuna optimizes XGBoost/LightGBM</span>
+                  </div>
+                  <div className="arch-plus">&darr;</div>
+                  <div className="arch-node emerald-border full-node">
+                    <span className="node-title">3. Model Explainability & Stakeholder Decision Engine</span>
+                    <span className="node-sub">SHAP value decomposition &rarr; Exports high-risk accounts with interpretable churn drivers to CRM</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Quantitative Benchmarks */}
+              <div className="case-study-section">
+                <h3 className="section-subtitle mono">03 / EMPIRICAL BENCHMARKS & EVALUATION</h3>
+                <div className="benchmark-table-wrap glass-panel">
+                  <table className="benchmark-table mono">
+                    <thead>
+                      <tr>
+                        <th>Model Architecture</th>
+                        <th>PR-AUC</th>
+                        <th>Recall</th>
+                        <th>ROC-AUC</th>
+                        <th>F1-Score</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Logistic Regression Baseline</td>
+                        <td>0.72</td>
+                        <td>68.0%</td>
+                        <td>0.78</td>
+                        <td>0.71</td>
+                      </tr>
+                      <tr>
+                        <td>Standard Random Forest</td>
+                        <td>0.81</td>
+                        <td>76.5%</td>
+                        <td>0.85</td>
+                        <td>0.79</td>
+                      </tr>
+                      <tr className="highlight-row">
+                        <td><strong>Adarsh&apos;s Tuned XGBoost + LightGBM</strong></td>
+                        <td><strong className="cyan-text">0.91</strong></td>
+                        <td><strong className="cyan-text">86.5%</strong></td>
+                        <td><strong className="cyan-text">0.93</strong></td>
+                        <td><strong className="cyan-text">0.88</strong></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              {/* Deployment */}
+              <div className="case-study-section">
+                <h3 className="section-subtitle mono">04 / BUSINESS IMPACT & RETENTION ROI</h3>
+                <p className="case-text">
+                  Integrated with automated batch scoring workflows and real-time inference endpoints. Model outputs provide
+                  customer success managers with transparent risk attributions, projected to decrease annual customer attrition by
+                  <strong> 18%</strong> and safeguard high-value enterprise accounts.
+                </p>
               </div>
             </div>
           )}

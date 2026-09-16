@@ -40,10 +40,10 @@ export default function TerminalDrawer({ isOpen, onClose, onOpenResume }) {
           type: 'response',
           text: `AVAILABLE COMMANDS:
   about / bio   - Read Adarsh's summary & engineering objectives
-  projects      - List flagship deep learning & RAG implementations
+  projects      - List flagship ML, RAG & Predictive analytics projects
   demos         - Jump to interactive labs (ECG simulator & RAG tester)
   skills        - Display categorized technical skills matrix
-  experience    - Show internship experience (CodSoft & CodeAlpha)
+  experience    - Show industry experience (Darexia Private Limited)
   education     - Display B.Tech CSE details & credentials
   resume        - Download or preview Adarsh's official PDF resume
   contact       - Output email, phone, and social links
@@ -58,9 +58,9 @@ export default function TerminalDrawer({ isOpen, onClose, onOpenResume }) {
         newHistory.push({
           type: 'response',
           text: `ADARSH GAURAV
-CS Undergraduate @ Guru Ghasidas Vishwavidyalaya (Graduating May 2026)
-Specialization: Machine Learning, Multimodal Deep Learning, RAG, and Predictive Analytics.
-Proven track record engineering end-to-end pipelines from raw sensor/audio feeds to sub-150ms deployed APIs.`
+Data Scientist & ML Engineer @ Guru Ghasidas Vishwavidyalaya (Graduating May 2026)
+Industry Experience: Data Science Intern @ Darexia Private Limited (Agentic AI data pipelines, +92% reasoning boost).
+Specialization: Agentic AI, Multimodal Deep Learning (PyTorch), RAG (BGE-M3/Llama 3.2), and Predictive Modeling (XGBoost/LightGBM).`
         });
         break;
 
@@ -68,14 +68,19 @@ Proven track record engineering end-to-end pipelines from raw sensor/audio feeds
         newHistory.push({
           type: 'response',
           text: `FLAGSHIP PROJECTS:
-1. Multimodal Deep Learning Framework for Heart Disease Prediction
-   - Architecture: CNN + BiLSTM + Transformer Self-Attention
-   - Result: 96.2% Accuracy, 0.995 ROC-AUC
-   - Stack: PyTorch, FastAPI, React.js, PostgreSQL
+1. Multimodal Deep Learning Framework for Clinical Disease Prediction
+   - Architecture: 1D-CNN + BiLSTM + Transformer Self-Attention
+   - Result: 96.2% Accuracy, 0.995 ROC-AUC, sub-150ms FastAPI latency
+   - Stack: PyTorch, Scikit-learn, FastAPI, PostgreSQL
 
-2. RAG-based AI Teaching Assistant
+2. Autonomous RAG & Semantic Analytics Engine
    - Pipeline: Whisper large-v2 -> BGE-M3 (1024d) -> Llama 3.2 (Ollama)
-   - Feature: Zero cloud cost, exact timestamp grounding over video lectures`
+   - Result: Sub-45ms dense retrieval, zero cloud cost, 100% grounded citations
+
+3. Customer Churn & Lifetime Value (LTV) Predictive Pipeline
+   - Architecture: SQL Window Features + SMOTE-NC + Optuna Bayesian Tuning
+   - Result: 0.91 PR-AUC, 86.5% Recall, -18% Projected Churn
+   - Stack: Python, XGBoost, LightGBM, SQL, Optuna, SHAP`
         });
         break;
 
@@ -83,10 +88,11 @@ Proven track record engineering end-to-end pipelines from raw sensor/audio feeds
         newHistory.push({
           type: 'response',
           text: `CORE TECHNICAL MATRIX:
-Languages:     Python, SQL (Postgres), Java, C/C++, JavaScript, HTML/CSS
-AI / ML:       PyTorch, Scikit-learn, CNN, BiLSTM, Transformers, RAG, Whisper, BGE-M3, Llama 3.2
-Data Tools:    Pandas, NumPy, Matplotlib, Seaborn, Clinical ECG Signal Preprocessing
-Backend/Web:   FastAPI, React.js, REST APIs, Git/GitHub, GCP, Docker basics`
+Languages:     Python (Advanced), SQL (PostgreSQL, MySQL), C/C++, Java, JavaScript
+Agentic & AI:  Agentic Workflows, Tool-Calling, RAG, BGE-M3, Llama 3.2, Whisper, Prompt Engineering
+ML & DL:       PyTorch, Scikit-learn, XGBoost, LightGBM, CNN, BiLSTM, Transformers, Optuna, SHAP
+Data Eng:      Scalable Data Pipelines, Pandas, NumPy, SQL Window Functions, Feature Stores, EDA
+Deployment:    FastAPI, Git/GitHub, Docker (Basics), GCP, RESTful APIs, Linux/Bash`
         });
         break;
 
@@ -94,10 +100,11 @@ Backend/Web:   FastAPI, React.js, REST APIs, Git/GitHub, GCP, Docker basics`
         newHistory.push({
           type: 'response',
           text: `EXPERIENCE RECORD:
-1. CodSoft — Data Science Intern (June 2025 – July 2025)
-   - Real-time product analytics, predictive modeling in Pandas/NumPy, stakeholder visualizations.
-2. CodeAlpha — Web Development Intern (Oct 2024 – Nov 2024)
-   - Responsive user-facing web apps, real-time client-side form validation.`
+Darexia Private Limited — Data Science Intern (June 2026 – Sept 2026)
+- Architected & optimized end-to-end data pipelines for training real-world Agentic AI models.
+- Enhanced Agentic AI system task performance by 92% via tool-calling validation & feedback loops.
+- Reduced execution latency across internal developer tools and client project pipelines.
+- Formulated scalable data pipelines across multiple client projects via Python & SQL.`
         });
         break;
 

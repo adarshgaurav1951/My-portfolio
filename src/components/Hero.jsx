@@ -14,10 +14,10 @@ import { Github, Linkedin } from './SocialIcons';
 
 export default function Hero({ onOpenResume }) {
   const roles = [
-    'Machine Learning Engineer',
-    'Multimodal Deep Learning Practitioner',
-    'RAG & Dense Retrieval Specialist',
-    'Full-Stack Data Application Developer'
+    'Data Scientist & ML Engineer',
+    'Agentic AI & Data Pipeline Architect',
+    'Multimodal Deep Learning Specialist',
+    'RAG & Semantic Retrieval Practitioner'
   ];
 
   const [roleIndex, setRoleIndex] = useState(0);
@@ -56,7 +56,7 @@ export default function Hero({ onOpenResume }) {
         <div className="hero-badge-wrapper">
           <div className="status-badge">
             <span className="status-dot" />
-            <span className="status-text">Available for Data Science & ML Roles</span>
+            <span className="status-text">Available for Data Science & Agentic AI Roles</span>
             <span className="badge-tag mono">Graduating May 2026</span>
           </div>
         </div>
@@ -76,10 +76,10 @@ export default function Hero({ onOpenResume }) {
 
         {/* Bio summary */}
         <p className="hero-bio">
-          I am <strong>Adarsh Gaurav</strong>, a Computer Science undergraduate skilled at building, evaluating, 
-          and deploying end-to-end ML & deep learning architectures — from feature engineering across tabular 
-          and biomedical signal data to custom RAG pipelines with dense vector retrieval. Proficient in Python, 
-          PyTorch, SQL, and modern full-stack systems to solve real-world problems at scale.
+          I am <strong>Adarsh Gaurav</strong>, a Data Scientist and Computer Science undergraduate with proven industry
+          experience designing scalable data pipelines, predictive models, and <strong>Agentic AI systems</strong>.
+          Demonstrated track record optimizing real-world AI training workflows—achieving a <strong>92% Agentic AI performance boost</strong> at
+          Darexia Private Limited and developing multimodal deep learning architectures with <strong>96%+ accuracy</strong> and sub-150ms production inference.
         </p>
 
         {/* Action Buttons */}
@@ -142,14 +142,26 @@ export default function Hero({ onOpenResume }) {
         <div className="hero-stats-grid">
           <div className="stat-card glass-panel">
             <div className="stat-header">
-              <Activity size={20} className="stat-icon cyan-icon" />
+              <Sparkles size={20} className="stat-icon cyan-icon" />
+              <span className="stat-label mono">AGENTIC AI AT DAREXIA</span>
+            </div>
+            <div className="stat-value-group">
+              <span className="stat-number cyan-gradient-text">+92%</span>
+              <span className="stat-unit">Performance</span>
+            </div>
+            <p className="stat-subtext">Optimized data pipelines & multi-step tool-calling evaluation</p>
+          </div>
+
+          <div className="stat-card glass-panel">
+            <div className="stat-header">
+              <Activity size={20} className="stat-icon emerald-icon" />
               <span className="stat-label mono">HEART DISEASE MODEL</span>
             </div>
             <div className="stat-value-group">
-              <span className="stat-number cyan-gradient-text">96%+</span>
-              <span className="stat-unit">Accuracy</span>
+              <span className="stat-number emerald-text">96.2%</span>
+              <span className="stat-unit">0.995 ROC-AUC</span>
             </div>
-            <p className="stat-subtext">0.995 ROC-AUC with CNN-BiLSTM-Transformer fusion</p>
+            <p className="stat-subtext">Hybrid CNN-BiLSTM-Transformer ECG & clinical fusion</p>
           </div>
 
           <div className="stat-card glass-panel">
@@ -161,19 +173,7 @@ export default function Hero({ onOpenResume }) {
               <span className="stat-number violet-gradient-text">BGE-M3</span>
               <span className="stat-unit">+ Llama 3.2</span>
             </div>
-            <p className="stat-subtext">Dense vector retrieval & Whisper large-v2 audio transcription</p>
-          </div>
-
-          <div className="stat-card glass-panel">
-            <div className="stat-header">
-              <Layers size={20} className="stat-icon emerald-icon" />
-              <span className="stat-label mono">ACADEMIC EXCELLENCE</span>
-            </div>
-            <div className="stat-value-group">
-              <span className="stat-number">7.1</span>
-              <span className="stat-unit">/ 10 CGPA</span>
-            </div>
-            <p className="stat-subtext">B.Tech in Computer Science & Engineering (2022–2026)</p>
+            <p className="stat-subtext">Sub-45ms dense retrieval & zero cloud inference cost</p>
           </div>
         </div>
 

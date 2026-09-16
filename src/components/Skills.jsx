@@ -16,31 +16,45 @@ export default function Skills() {
   const skillsData = [
     // AI & Machine Learning
     {
-      name: 'PyTorch & Deep Learning',
+      name: 'Agentic AI & Multi-Agent Systems',
       category: 'ai',
-      level: 90,
-      experience: 'Hybrid CNN–BiLSTM–Transformer, signal & tabular fusion',
-      badge: 'Advanced'
+      level: 94,
+      experience: 'Multi-agent workflows, tool-calling validation, 92% performance boost at Darexia',
+      badge: 'Specialization'
     },
     {
       name: 'RAG & Vector Retrieval',
       category: 'ai',
       level: 92,
-      experience: 'BGE-M3 embeddings, cosine similarity, Ollama, Llama 3.2',
+      experience: 'BGE-M3 embeddings, cosine similarity, Ollama, Llama 3.2, sub-45ms latency',
       badge: 'Core Specialization'
+    },
+    {
+      name: 'PyTorch & Deep Learning',
+      category: 'ai',
+      level: 90,
+      experience: 'Hybrid CNN–BiLSTM–Transformer, signal & tabular multimodal fusion',
+      badge: 'Advanced'
+    },
+    {
+      name: 'Gradient Boosting (XGBoost & LightGBM)',
+      category: 'ai',
+      level: 93,
+      experience: 'Optuna Bayesian optimization, SMOTE-NC imbalance, SHAP explainability',
+      badge: 'Core'
     },
     {
       name: 'Scikit-learn & Predictive Modeling',
       category: 'ai',
       level: 94,
-      experience: 'SVM, Random Forests, cross-validation, ROC-AUC tuning',
+      experience: 'Cross-validation, ROC-AUC, PR-AUC tuning, feature selection',
       badge: 'Core'
     },
     {
       name: 'Speech-to-Text (Whisper)',
       category: 'ai',
       level: 88,
-      experience: 'OpenAI Whisper large-v2, audio chunking with FFmpeg',
+      experience: 'OpenAI Whisper large-v2, audio stream chunking with FFmpeg',
       badge: 'Production'
     },
 
@@ -48,15 +62,15 @@ export default function Skills() {
     {
       name: 'Python',
       category: 'languages',
-      level: 95,
-      experience: 'Core DS/ML language, data pipelines, FastAPI, NumPy',
+      level: 96,
+      experience: 'Core DS/ML language, data pipelines, FastAPI, NumPy, PyTorch',
       badge: 'Primary'
     },
     {
-      name: 'SQL (PostgreSQL)',
+      name: 'SQL (PostgreSQL, MySQL)',
       category: 'languages',
-      level: 88,
-      experience: 'Complex queries, schema indexing, model persistence',
+      level: 90,
+      experience: 'Complex window functions, RFM feature stores, schema indexing',
       badge: 'Proficient'
     },
     {
@@ -90,24 +104,31 @@ export default function Skills() {
 
     // Data & Analytics
     {
+      name: 'Scalable Data Pipelines',
+      category: 'data',
+      level: 93,
+      experience: 'End-to-end data ingestion, cleaning, and model training pipelines at Darexia',
+      badge: 'Production'
+    },
+    {
       name: 'Pandas & NumPy',
       category: 'data',
-      level: 94,
-      experience: 'Feature engineering, time-series, data cleaning, CodSoft intern',
+      level: 95,
+      experience: 'High-throughput feature engineering, time-series analysis, data cleansing',
       badge: 'Core'
     },
     {
-      name: 'Data Visualization',
+      name: 'Data Visualization & Storytelling',
       category: 'data',
       level: 90,
-      experience: 'Matplotlib, Seaborn, interactive dashboards, stakeholder storytelling',
+      experience: 'Matplotlib, Seaborn, interactive dashboards, executive data storytelling',
       badge: 'Core'
     },
     {
       name: 'Signal Processing (ECG)',
       category: 'data',
-      level: 85,
-      experience: 'Temporal filtering, P-Q-R-S-T extraction, medical data',
+      level: 86,
+      experience: 'Temporal filtering, P-Q-R-S-T wave extraction, biomedical data',
       badge: 'Domain Expert'
     },
 

@@ -112,14 +112,12 @@ Organized with interactive category filter tabs:
 - **Tools & Platforms:** Git/GitHub, Google Cloud Platform (GCP), Docker basics, VS Code, Google Colab, Linux environment.
 
 ### 4.5 Experience & Leadership Timeline
-1. **Data Science Intern — CodSoft** *(June 2025 – July 2025 | Remote)*
-   - Analyzed real-time datasets to discover patterns directly driving product analytics.
-   - Built and benchmarked predictive models in Python, Pandas, and NumPy.
-   - Designed executive data visualizations to present complex ML insights to non-technical stakeholders.
-2. **Web Development Intern — CodeAlpha** *(Oct 2024 – Nov 2024 | Remote)*
-   - Engineered responsive front-end interfaces utilizing HTML, Tailwind CSS, and JavaScript.
-   - Implemented real-time form validation and error handling to reduce user friction.
-3. **Student Leader — Pregrad**
+1. **Data Science Intern — Darexia Private Limited** *(June 2026 – Sept 2026)*
+   - Architected, built, and optimized end-to-end data pipelines for training real-world Agentic AI models.
+   - Enhanced Agentic AI system task performance by 92% via tool-calling validation, reasoning evaluation, and automated feedback loops.
+   - Streamlined vector retrieval and real-time ingestion flows, reducing execution latency across internal developer tools and client project pipelines.
+   - Collaborated across multiple concurrent client projects and internal tools, delivering high-performance feature stores and predictive models via Python & SQL.
+2. **Student Leader — Pregrad**
    - Coordinated campus technology initiatives and led cross-functional student teams through innovation sprints.
 4. **Deloitte Data Analytics Simulation**
    - Completed comprehensive simulation delivering data-driven business recommendations and analytical dashboards.

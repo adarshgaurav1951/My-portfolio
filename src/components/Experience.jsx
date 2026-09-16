@@ -14,35 +14,20 @@ export default function Experience() {
   const experiences = [
     {
       role: 'Data Science Intern',
-      company: 'CodSoft',
-      period: 'June 2025 – July 2025',
-      location: 'Remote',
+      company: 'Darexia Private Limited',
+      period: 'June 2026 – Sept 2026',
+      location: 'India',
       type: 'Internship',
       color: 'cyan',
       description:
-        'Focused on exploratory data analysis, feature engineering, and statistical predictive modeling on streaming product analytics datasets.',
+        'Architected, built, and optimized scalable data pipelines to train and fine-tune real-world Agentic AI models, dramatically improving reasoning accuracy and slashing system latency across internal tools and client projects.',
       achievements: [
-        'Analyzed real-time product datasets in Python (Pandas/NumPy) to surface user engagement patterns and behavioral trends.',
-        'Built and benchmarked predictive models, translating raw unstructured data points into clear, actionable executive recommendations.',
-        'Engineered high-impact data visualization dashboards that bridged complex machine learning findings for non-technical stakeholders.'
+        'Architected and optimized end-to-end data pipelines to ingest, clean, and preprocess high-throughput multimodal and structured datasets for training real-world Agentic AI models.',
+        'Enhanced the execution accuracy and multi-step reasoning performance of Agentic AI systems by 92% through systematic prompt engineering, tool-calling validation schemas, and automated feedback loops.',
+        'Streamlined vector retrieval pipelines and real-time data ingestion flows, significantly reducing system execution latency across existing internal developer tools and client project pipelines.',
+        'Collaborated across multiple concurrent client projects and internal tools, translating business requirements into scalable feature transformations, monitoring model drift, and ensuring high data fidelity via Python and SQL.'
       ],
-      tags: ['Python', 'Pandas', 'NumPy', 'Predictive Modeling', 'Data Storytelling', 'Product Analytics']
-    },
-    {
-      role: 'Web Development Intern',
-      company: 'CodeAlpha',
-      period: 'Oct 2024 – Nov 2024',
-      location: 'Remote',
-      type: 'Internship',
-      color: 'violet',
-      description:
-        'Engineered user-facing web interfaces, dynamic state management, and real-time form validation systems.',
-      achievements: [
-        'Shipped responsive, high-performance web applications using semantic HTML, Tailwind CSS, and modern JavaScript.',
-        'Architected interactive UI modules with instant client-side validation, significantly reducing user submission error rates.',
-        'Applied structured debugging methodologies to resolve cross-browser regressions and deploy production features on tight deadlines.'
-      ],
-      tags: ['JavaScript', 'HTML5', 'Tailwind CSS', 'UI Components', 'Form Validation', 'Structured Debugging']
+      tags: ['Agentic AI', 'Data Pipelines', 'Python', 'SQL', 'Latency Optimization', 'Multi-Agent Workflows', 'Model Training']
     }
   ];
 

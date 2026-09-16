@@ -1,0 +1,181 @@
+%-------------------------
+% Data Science ATS-Optimized Resume in LaTeX
+% Author : Adarsh Gaurav
+% License : MIT
+%-------------------------
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{center}
+    \textbf{\Huge \scshape Adarsh Gaurav} \\ \vspace{2pt}
+    \small +91 7033375667 $|$ 
+    \href{mailto:adarshgaurav1624@gmail.com}{\underline{adarshgaurav1624@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/adarsh-gaurav}{\underline{linkedin.com/in/adarsh-gaurav}} $|$ 
+    \href{https://github.com/adarshgaurav1951}{\underline{github.com/adarshgaurav1951}} $|$
+    Bilaspur, India
+\end{center}
+
+%-----------SUMMARY-----------------
+\section{Professional Summary}
+\small{
+  \textbf{Data Scientist} and Computer Science undergraduate specializing in end-to-end Machine Learning pipelines, predictive modeling, statistical analysis, and Generative AI (RAG). Proficient in Python, SQL, PyTorch, and Scikit-learn, with proven success designing multimodal deep learning architectures achieving \textbf{96\%+ classification accuracy} and sub-150ms REST API inference. Adept at high-dimensional feature engineering, Bayesian hyperparameter optimization (Optuna), and converting complex algorithmic outputs into data-driven business decisions.
+}
+
+%-----------TECHNICAL SKILLS-----------------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=*,label={}]
+    \small{\item{
+     \textbf{Machine Learning \& Modeling}{: Supervised \& Unsupervised Learning, XGBoost, LightGBM, Random Forest, Logistic Regression, SVM, K-Means, Cross-Validation, Hyperparameter Tuning (Optuna, GridSearchCV), Model Evaluation (ROC-AUC, PR-AUC, F1-Score)} \\
+     \textbf{Deep Learning \& GenAI}{: PyTorch, CNN, BiLSTM, Transformers, Multimodal Data Fusion, Retrieval-Augmented Generation (RAG), Vector Embeddings (BGE-M3), Semantic Search, OpenAI Whisper, Prompt Engineering, Ollama (Llama 3.2)} \\
+     \textbf{Data Analytics \& Engineering}{: Python, Pandas, NumPy, SQL (PostgreSQL, MySQL), Feature Engineering, Exploratory Data Analysis (EDA), Statistical Hypothesis Testing, Data Imputation, Matplotlib, Seaborn, Time-Series \& Signal Processing} \\
+     \textbf{Developer Tools \& Deployment}{: FastAPI, Git, GitHub, Docker (Basics), Google Cloud Platform (GCP), RESTful APIs, Linux/Bash, VS Code, Google Colab}
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Data Science Intern}{June 2025 -- July 2025}
+      {CodSoft}{Remote}
+      \resumeItemListStart
+        \item Conducted end-to-end \textbf{Exploratory Data Analysis (EDA)} and feature engineering on 100K+ transactional records using \textbf{Python (Pandas, NumPy)}, uncovering key customer behavioral patterns and data distributions.
+        \item Built and evaluated predictive classification models (Random Forest, XGBoost, Logistic Regression); resolved target imbalance via \textbf{SMOTE} and achieved an \textbf{88.4\% F1-score} (+14.2\% over baseline heuristics).
+        \item Formulated 20+ predictive indicators and executed 5-fold cross-validation with grid search to optimize model convergence.
+        \item Created interactive data visualizations with \textbf{Seaborn and Matplotlib} to communicate feature importances and analytical insights to non-technical stakeholders, driving data-informed business recommendations.
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Software \& Data Engineering Intern}{Oct 2024 -- Nov 2024}
+      {CodeAlpha}{Remote}
+      \resumeItemListStart
+        \item Engineered web applications and data capture interfaces with \textbf{JavaScript, HTML5, and Tailwind CSS}, optimizing responsive UI components and ensuring zero-loss client-side telemetry.
+        \item Implemented rigorous client-side input validation and error handling schemas, reducing corrupted data submissions by \textbf{28\%}.
+        \item Optimized frontend asynchronous data fetching and API state management, reducing dashboard load times by \textbf{35\%}.
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Selected Data Science \& AI Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Multimodal Deep Learning System for Clinical Disease Prediction}}{PyTorch, Scikit-learn, FastAPI, PostgreSQL}
+          \resumeItemListStart
+            \item Architected an end-to-end multimodal deep learning pipeline fusing continuous 12-lead ECG time-series signals with structured clinical laboratory records for early cardiovascular disease detection.
+            \item Designed a hybrid \textbf{CNN--BiLSTM--Transformer} network with an attention-weighted feature bottleneck to jointly extract spatial waveform features and non-linear tabular interactions, beating unimodal tabular baselines by \textbf{15.6\%}.
+            \item Achieved \textbf{96.2\% classification accuracy} and a \textbf{0.995 ROC-AUC} evaluated across 5-fold stratified cross-validation.
+            \item Containerized the inference pipeline behind a high-throughput \textbf{FastAPI} REST service with PostgreSQL persistence, achieving sub-\textbf{150ms real-time latency}.
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Autonomous RAG \& Semantic Analytics Engine}}{Python, BGE-M3, Llama 3.2, Whisper, Scikit-learn}
+          \resumeItemListStart
+            \item Engineered an automated \textbf{Retrieval-Augmented Generation (RAG)} analytics engine to transcribe, index, and query multi-hour unstructured audio/video lectures and technical corpora without external cloud API dependencies.
+            \item Automated speech-to-text pipeline using \textbf{OpenAI Whisper (large-v2)} and FFmpeg audio stream slicing, generating structured, time-stamped text chunks for semantic indexing.
+            \item Built a dense vector retrieval index with 1024-dimensional \textbf{BGE-M3 embeddings} and cosine similarity search (Scikit-learn/NumPy), achieving sub-\textbf{45ms query response times}.
+            \item Integrated local LLM inference via \textbf{Ollama (Llama 3.2)} with custom hallucination-mitigation prompt templates, ensuring 100\% of responses include grounded, exact temporal video citations.
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Customer Churn \& Lifetime Value (LTV) Predictive Pipeline}}{Python, XGBoost, LightGBM, SQL, Optuna, SHAP}
+          \resumeItemListStart
+            \item Developed an end-to-end churn prediction pipeline on 250K+ customer profiles, engineering \textbf{30+ behavioral and Recency-Frequency-Monetary (RFM)} features using complex SQL window functions and Pandas.
+            \item Trained and tuned \textbf{XGBoost and LightGBM} classifiers; mitigated severe class imbalance via \textbf{SMOTE-NC} and tuned hyperparameters with Bayesian optimization (\textbf{Optuna}), achieving \textbf{0.91 PR-AUC} and \textbf{86.5\% Recall}.
+            \item Leveraged \textbf{SHAP (SHapley Additive exPlanations)} for global and individual feature attribution, delivering interpretable churn risk factors to business stakeholders to proactively retain high-value accounts.
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Guru Ghasidas Vishwavidyalaya (A Central University)}{Bilaspur, India}
+      {Bachelor of Technology in Computer Science and Engineering; CGPA: 7.1/10}{Dec 2022 -- May 2026}
+      \vspace{2pt}
+      \small{\item[] \textbf{Relevant Coursework:} Machine Learning, Probability \& Statistics, Data Structures \& Algorithms, Database Management Systems (DBMS), Artificial Intelligence, Operating Systems, OOP in Java/C++}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS & LEADERSHIP-----------------
+\section{Certifications \& Leadership}
+  \resumeItemListStart
+    \item \textbf{Deloitte Data Analytics Job Simulation (Forage):} Completed corporate analytics engagement --- executed data cleaning, exploratory data analysis (EDA), hypothesis testing, and designed executive data dashboards.
+    \item \textbf{Student Leader, Pregrad:} Directed campus tech initiatives and coordinated 15+ student teams across hackathons and software development sprints.
+  \resumeItemListEnd
+
+%-------------------------------------------
+\end{document}

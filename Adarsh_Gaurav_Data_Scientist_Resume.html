@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adarsh Gaurav - Data Scientist Resume</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.45in 0.5in 0.45in 0.5in;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 9.6pt;
+    line-height: 1.32;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 7px;
+    border-bottom: 1.5px solid #2b2b2b;
+    padding-bottom: 5px;
+  }
+  .header h1 {
+    font-size: 19pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #0f172a;
+    text-transform: uppercase;
+    margin-bottom: 3px;
+  }
+  .contact-info {
+    font-size: 9pt;
+    color: #334155;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .contact-info a {
+    color: #0369a1;
+    text-decoration: none;
+  }
+  .contact-info .sep {
+    color: #94a3b8;
+  }
+
+  /* Section Styling */
+  .section {
+    margin-bottom: 6.5px;
+  }
+  .section-title {
+    font-size: 10.2pt;
+    font-weight: 700;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    border-bottom: 1px solid #cbd5e1;
+    padding-bottom: 1.5px;
+    margin-bottom: 4px;
+  }
+
+  /* Summary */
+  .summary-text {
+    font-size: 9.3pt;
+    text-align: justify;
+    color: #1e293b;
+    line-height: 1.34;
+  }
+
+  /* Technical Skills */
+  .skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9.2pt;
+  }
+  .skills-table td {
+    padding: 1.5px 0;
+    vertical-align: top;
+  }
+  .skill-category {
+    font-weight: 700;
+    color: #0f172a;
+    width: 185px;
+    white-space: nowrap;
+  }
+  .skill-list {
+    color: #1e293b;
+  }
+
+  /* Experience & Projects */
+  .entry {
+    margin-bottom: 5px;
+  }
+  .entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5px;
+  }
+  .entry-title {
+    font-size: 9.6pt;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .entry-subtitle {
+    font-size: 9.2pt;
+    font-weight: 600;
+    color: #334155;
+    font-style: italic;
+  }
+  .entry-date {
+    font-size: 8.8pt;
+    font-weight: 600;
+    color: #475569;
+    text-align: right;
+    white-space: nowrap;
+  }
+  .tech-stack {
+    font-size: 8.7pt;
+    color: #0369a1;
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+  ul.bullets {
+    list-style-type: disc;
+    margin-left: 15px;
+    padding-left: 0;
+  }
+  ul.bullets li {
+    font-size: 9.1pt;
+    color: #1e293b;
+    margin-bottom: 2px;
+    line-height: 1.3;
+    text-align: justify;
+  }
+  ul.bullets li strong {
+    color: #0f172a;
+    font-weight: 600;
+  }
+
+  /* Education */
+  .edu-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .edu-degree {
+    font-size: 9.3pt;
+    font-weight: 600;
+    color: #1e293b;
+  }
+  .edu-school {
+    font-size: 9.5pt;
+    font-weight: 700;
+    color: #0f172a;
+  }
+</style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <h1>ADARSH GAURAV</h1>
+    <div class="contact-info">
+      <span>+91 7033375667</span>
+      <span class="sep">|</span>
+      <span><a href="mailto:adarshgaurav1624@gmail.com">adarshgaurav1624@gmail.com</a></span>
+      <span class="sep">|</span>
+      <span><a href="https://linkedin.com/in/adarsh-gaurav">linkedin.com/in/adarsh-gaurav</a></span>
+      <span class="sep">|</span>
+      <span><a href="https://github.com/adarshgaurav1951">github.com/adarshgaurav1951</a></span>
+      <span class="sep">|</span>
+      <span>Bilaspur, India</span>
+    </div>
+  </header>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <section class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <p class="summary-text">
+      <strong>Data Scientist</strong> and Computer Science undergraduate with hands-on experience designing, training, and deploying end-to-end Machine Learning pipelines, statistical predictive models, and Generative AI systems. Proficient in Python, SQL, PyTorch, and Scikit-learn, with proven expertise in feature engineering on high-dimensional tabular and multimodal data. Track record of developing high-impact AI architectures achieving 96%+ accuracy and building scalable REST APIs for sub-150ms real-time inference. Adept at translating complex analytical findings into actionable business intelligence.
+    </p>
+  </section>
+
+  <!-- TECHNICAL SKILLS -->
+  <section class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <table class="skills-table">
+      <tr>
+        <td class="skill-category">Machine Learning & Modeling:</td>
+        <td class="skill-list">Supervised & Unsupervised Learning, XGBoost, LightGBM, Random Forest, Logistic Regression, SVM, KNN, K-Means, Cross-Validation, Hyperparameter Tuning (Optuna, GridSearchCV), Model Evaluation (ROC-AUC, PR-AUC, F1-Score)</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Deep Learning & GenAI:</td>
+        <td class="skill-list">PyTorch, CNN, BiLSTM, Transformers, Multimodal Fusion, Retrieval-Augmented Generation (RAG), Vector Embeddings (BGE-M3), Semantic Search, OpenAI Whisper, Prompt Engineering, Ollama (Llama 3.2)</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Data Analytics & Engineering:</td>
+        <td class="skill-list">Pandas, NumPy, SQL (PostgreSQL, MySQL), Feature Engineering, Exploratory Data Analysis (EDA), Statistical Hypothesis Testing, Data Cleaning & Imputation, Matplotlib, Seaborn, Time-Series & Signal Processing</td>
+      </tr>
+      <tr>
+        <td class="skill-category">Languages & Developer Tools:</td>
+        <td class="skill-list">Python (Advanced), SQL, C/C++, Java, JavaScript, FastAPI, Git, GitHub, Docker (Basics), Google Cloud Platform (GCP), RESTful APIs, Linux/Bash, VS Code, Google Colab</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- WORK EXPERIENCE -->
+  <section class="section">
+    <h2 class="section-title">Work Experience</h2>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Data Science Intern</span> — <span class="entry-subtitle">CodSoft</span>
+        </div>
+        <span class="entry-date">June 2025 – July 2025 | Remote</span>
+      </div>
+      <ul class="bullets">
+        <li>Conducted in-depth <strong>Exploratory Data Analysis (EDA)</strong> and feature engineering on 100K+ transactional records, identifying key customer behavioral trends and data anomalies using <strong>Python (Pandas, NumPy)</strong>.</li>
+        <li>Developed and benchmarked supervised machine learning models (Random Forest, XGBoost, Logistic Regression), achieving an <strong>88.4% F1-score</strong> and outperforming baseline heuristics by <strong>14.2%</strong>.</li>
+        <li>Implemented automated data preprocessing, handling class imbalance via <strong>SMOTE</strong> and tuning hyperparameters via 5-fold cross-validation.</li>
+        <li>Built interactive data visualizations with <strong>Seaborn and Matplotlib</strong> to translate technical model drivers and feature importances into executive-ready business insights.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <div>
+          <span class="entry-title">Software & Data Engineering Intern</span> — <span class="entry-subtitle">CodeAlpha</span>
+        </div>
+        <span class="entry-date">Oct 2024 – Nov 2024 | Remote</span>
+      </div>
+      <ul class="bullets">
+        <li>Engineered responsive web applications and data ingestion interfaces utilizing <strong>JavaScript, HTML5, and Tailwind CSS</strong>.</li>
+        <li>Built client-side data validation algorithms and real-time error handling schemas, reducing input data corruption and user submission errors by <strong>28%</strong>.</li>
+        <li>Optimized client-side state handling and REST API endpoints, improving dashboard response times by <strong>35%</strong>.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section">
+    <h2 class="section-title">Selected Data Science & AI Projects</h2>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Multimodal Deep Learning Framework for Clinical Disease Prediction</span>
+        <span class="entry-date">PyTorch, Scikit-learn, FastAPI, PostgreSQL</span>
+      </div>
+      <ul class="bullets">
+        <li>Architected an end-to-end <strong>multimodal deep learning system</strong> fusing continuous 12-lead ECG time-series signals with structured demographic and clinical laboratory panels for early cardiovascular risk prediction.</li>
+        <li>Engineered a hybrid <strong>CNN–BiLSTM–Transformer</strong> architecture featuring a custom cross-attention bottleneck layer to jointly learn spatial ECG waveform representations and non-linear tabular interactions.</li>
+        <li>Achieved <strong>96.2% classification accuracy</strong> and an <strong>0.995 ROC-AUC</strong> on held-out test benchmarks, improving sensitivity by <strong>15.6%</strong> over single-modality tabular baselines.</li>
+        <li>Containerized model weights behind a high-throughput <strong>FastAPI</strong> microservice with PostgreSQL persistence, delivering real-time predictions with sub-<strong>150ms latency</strong>.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Autonomous RAG & Semantic Analytics Engine</span>
+        <span class="entry-date">Python, BGE-M3, Llama 3.2, Whisper, Scikit-learn</span>
+      </div>
+      <ul class="bullets">
+        <li>Built an autonomous <strong>Retrieval-Augmented Generation (RAG)</strong> pipeline to ingest, index, and query multi-hour unstructured audio/video lectures and technical documentation without recurring cloud API fees.</li>
+        <li>Automated speech-to-text transcription using <strong>OpenAI Whisper (large-v2)</strong> and FFmpeg audio stream segmentation, generating structured, time-stamped text chunks.</li>
+        <li>Constructed a dense semantic search vector index using 1024-dimensional <strong>BGE-M3 embeddings</strong> and cosine similarity search, reducing query retrieval latency to under <strong>45ms</strong>.</li>
+        <li>Integrated local LLM inference via <strong>Ollama (Llama 3.2)</strong> with hallucination-mitigating prompt constraints, ensuring 100% of generated responses are grounded with exact temporal source citations.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-header">
+        <span class="entry-title">Customer Churn Prediction & Lifetime Value (LTV) Analytics System</span>
+        <span class="entry-date">Python, XGBoost, LightGBM, SQL, Optuna, SHAP</span>
+      </div>
+      <ul class="bullets">
+        <li>Designed a production-grade churn prediction pipeline on 250K+ customer profiles, engineering <strong>30+ behavioral and Recency-Frequency-Monetary (RFM)</strong> features using complex SQL window functions and Pandas.</li>
+        <li>Trained and optimized <strong>XGBoost, LightGBM, and CatBoost</strong> classifiers; resolved severe 85:15 class imbalance using <strong>SMOTE-NC</strong> and tuned hyperparameters via Bayesian optimization with <strong>Optuna</strong>.</li>
+        <li>Achieved <strong>0.91 PR-AUC</strong> and <strong>86.5% Recall</strong>, enabling proactive retention workflows projected to reduce annual customer attrition by <strong>18%</strong>.</li>
+        <li>Utilized <strong>SHAP (SHapley Additive exPlanations)</strong> for global and local model interpretability, providing business stakeholders with transparent decision explanations for high-risk accounts.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section">
+    <h2 class="section-title">Education</h2>
+    <div class="entry">
+      <div class="edu-row">
+        <div>
+          <span class="edu-school">Guru Ghasidas Vishwavidyalaya (A Central University)</span> — <span class="edu-degree">Bilaspur, Chhattisgarh</span>
+        </div>
+        <span class="entry-date">Dec 2022 – May 2026</span>
+      </div>
+      <div class="edu-row" style="margin-top: 1px;">
+        <span class="edu-degree">Bachelor of Technology (B.Tech) in Computer Science and Engineering | CGPA: 7.1 / 10</span>
+      </div>
+      <p style="font-size: 8.8pt; color: #475569; margin-top: 1.5px;">
+        <strong>Relevant Coursework:</strong> Machine Learning, Probability & Statistics, Data Structures & Algorithms, Database Management Systems (DBMS), Artificial Intelligence, Operating Systems, Object-Oriented Programming.
+      </p>
+    </div>
+  </section>
+
+  <!-- LEADERSHIP & CERTIFICATIONS -->
+  <section class="section">
+    <h2 class="section-title">Certifications & Leadership</h2>
+    <ul class="bullets">
+      <li><strong>Deloitte Data Analytics Job Simulation (Forage):</strong> Completed simulated corporate analytics engagement — performed data cleaning, exploratory analysis, hypothesis testing, and created executive BI dashboards.</li>
+      <li><strong>Student Leader, Pregrad:</strong> Spearheaded campus technical workshops and hackathons, coordinating 15+ student developers and driving engagement across AI/ML and software initiatives.</li>
+    </ul>
+  </section>
+
+</body>
+</html>

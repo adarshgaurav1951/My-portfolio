@@ -58,11 +58,11 @@ export default function ResumeModal({ isOpen, onClose }) {
             <div className="resume-actions-group">
               <a
                 href="/resume.pdf"
-                download="Adarsh_Gaurav_Resume_DS.pdf"
+                download="Adarsh_Gaurav_Data_Scientist_Resume.pdf"
                 className="btn btn-primary"
               >
                 <FileDown size={17} />
-                <span>Download Official PDF (62 KB)</span>
+                <span>Download Official PDF</span>
               </a>
               <a
                 href="/resume.pdf"

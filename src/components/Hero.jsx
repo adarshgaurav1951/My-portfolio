@@ -79,7 +79,7 @@ export default function Hero({ onOpenResume }) {
           I am <strong>Adarsh Gaurav</strong>, a Data Scientist and Computer Science undergraduate with proven industry
           experience designing scalable data pipelines, predictive models, and <strong>Agentic AI systems</strong>.
           Demonstrated track record optimizing real-world AI training workflows—achieving a <strong>92% Agentic AI performance boost</strong> at
-          Darexia Private Limited and developing multimodal deep learning architectures with <strong>96%+ accuracy</strong> and sub-150ms production inference.
+          Darexai private limited and developing multimodal deep learning architectures with <strong>96%+ accuracy</strong> and sub-150ms production inference.
         </p>
 
         {/* Action Buttons */}
@@ -143,7 +143,7 @@ export default function Hero({ onOpenResume }) {
           <div className="stat-card glass-panel">
             <div className="stat-header">
               <Sparkles size={20} className="stat-icon cyan-icon" />
-              <span className="stat-label mono">AGENTIC AI AT DAREXIA</span>
+              <span className="stat-label mono">AGENTIC AI AT DAREXAI</span>
             </div>
             <div className="stat-value-group">
               <span className="stat-number cyan-gradient-text">+92%</span>

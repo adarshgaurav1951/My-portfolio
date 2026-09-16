@@ -14,7 +14,7 @@ export default function Experience() {
   const experiences = [
     {
       role: 'Data Science Intern',
-      company: 'Darexia Private Limited',
+      company: 'Darexai private limited',
       period: 'June 2026 – Sept 2026',
       location: 'India',
       type: 'Internship',

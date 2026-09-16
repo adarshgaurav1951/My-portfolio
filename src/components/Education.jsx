@@ -8,7 +8,7 @@ export default function Education() {
       location: 'Bilaspur (C.G.), India',
       degree: 'Bachelor of Technology in Computer Science and Engineering',
       period: 'Dec. 2022 – May 2026',
-      grade: 'CGPA: 7.1 / 10',
+      badge: 'Central University',
       status: 'Final Year Undergraduate',
       featured: true,
       highlights: [
@@ -22,7 +22,7 @@ export default function Education() {
       location: 'Bihar, India',
       degree: 'Senior Secondary Education (CBSE Class XII - Science PCM)',
       period: 'April 2019 – March 2021',
-      grade: 'Score: 70%',
+      badge: 'Senior Secondary',
       status: 'Completed',
       featured: false,
       highlights: ['Mathematics, Physics, Chemistry focus providing quantitative & analytical foundations.']
@@ -32,7 +32,7 @@ export default function Education() {
       location: 'Bihar, India',
       degree: 'Secondary School Education (CBSE Class X)',
       period: 'April 2018 – March 2019',
-      grade: 'Score: 80.88%',
+      badge: 'High School',
       status: 'Completed',
       featured: false,
       highlights: ['Strong academic record with foundational sciences and competitive mathematics.']
@@ -68,7 +68,7 @@ export default function Education() {
                   <GraduationCap size={22} className={edu.featured ? 'cyan-icon' : 'violet-icon'} />
                 </div>
                 <div className="edu-badge-group">
-                  <span className="badge badge-cyan mono">{edu.grade}</span>
+                  <span className="badge badge-cyan mono">{edu.badge}</span>
                   {edu.featured && <span className="badge badge-emerald mono">Expected May 2026</span>}
                 </div>
               </div>

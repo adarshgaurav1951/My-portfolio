@@ -1,31 +1,31 @@
 # ADARSH GAURAV
-**Data Scientist | Machine Learning & Agentic AI Engineer**  
+**Data Scientist | Data Pipeline & Machine Learning Engineer**  
 Bilaspur, India | +91 7033375667 | [adarshgaurav1624@gmail.com](mailto:adarshgaurav1624@gmail.com)  
 [LinkedIn](https://linkedin.com/in/adarsh-gaurav) | [GitHub](https://github.com/adarshgaurav1951)
 
 ---
 
 ## PROFESSIONAL SUMMARY
-**Data Scientist** and Computer Science undergraduate with proven industry experience designing and deploying scalable **data pipelines**, statistical predictive models, and production **Agentic AI systems**. Demonstrated track record optimizing end-to-end data workflows for real-world AI model training—improving Agentic AI execution performance by **92%** and substantially reducing latency across internal tools and multi-client projects. Proficient in Python, SQL, PyTorch, Scikit-learn, and RAG architectures, with expertise translating complex engineering workflows into high-impact, low-latency AI solutions.
+**Data Scientist** with strong expertise in architecting scalable **data pipelines**, statistical predictive modeling, and production machine learning systems. Proven success designing end-to-end data workflows for real-world AI model training—improving Agentic AI task performance by **92%** and substantially reducing data processing latency across internal tools and multi-client projects. Skilled in exploratory data analysis (EDA), statistical inference, high-dimensional feature engineering, Bayesian optimization (Optuna), and SQL feature store pipelines. Proficient in Python, SQL, Scikit-learn, and PyTorch, with a track record of translating complex raw data into quantifiable business impact and low-latency production data solutions.
 
 ---
 
 ## TECHNICAL SKILLS
-- **Agentic AI & GenAI:** Agentic Workflows, Multi-Agent Systems, Tool-Calling, Retrieval-Augmented Generation (RAG), Vector Embeddings (BGE-M3), Semantic Search, OpenAI Whisper, Prompt Engineering, Ollama (Llama 3.2)
-- **Machine Learning & Modeling:** Supervised & Unsupervised Learning, XGBoost, LightGBM, Random Forest, Logistic Regression, SVM, K-Means, Cross-Validation, Hyperparameter Tuning (Optuna, GridSearchCV), Model Evaluation (ROC-AUC, PR-AUC, F1-Score)
-- **Deep Learning & Data Engineering:** PyTorch, CNN, BiLSTM, Transformers, Multimodal Data Fusion, Data Pipelines, Feature Engineering, Exploratory Data Analysis (EDA), Signal Processing (ECG), Data Cleaning & Imputation
-- **Languages, DB & Tools:** Python, SQL (PostgreSQL, MySQL), C/C++, Java, JavaScript, FastAPI, Git, GitHub, Docker (Basics), Google Cloud Platform (GCP), RESTful APIs, Linux/Bash, VS Code, Google Colab
+- **Data Science & Modeling:** Supervised & Unsupervised Learning, Predictive Analytics, Statistical Inference & Hypothesis Testing, Exploratory Data Analysis (EDA), XGBoost, LightGBM, Random Forest, Logistic Regression, Cross-Validation, Optuna (Bayesian Tuning), Model Evaluation (ROC-AUC, PR-AUC, F1, RMSE)
+- **Data Pipelines & Engineering:** Scalable ETL/ELT Pipelines, Feature Stores & Engineering, Data Ingestion & Cleansing, Class Imbalance Handling (SMOTE-NC), Time-Series & Signal Processing, SQL (PostgreSQL, MySQL - Advanced Window Functions, CTEs, Indexing), Data Drift Monitoring
+- **Deep Learning & Agentic AI:** PyTorch, Scikit-learn, CNN, BiLSTM, Transformers, Multimodal Data Fusion, Agentic AI Workflows, Tool-Calling Validation, Retrieval-Augmented Generation (RAG), Vector Embeddings (BGE-M3), Semantic Search, OpenAI Whisper
+- **Languages, DB & Tools:** Python (Advanced - Pandas, NumPy, Scipy), SQL, FastAPI, Git, GitHub, Docker (Basics), Google Cloud Platform (GCP), RESTful APIs, Matplotlib, Seaborn, Linux/Bash, VS Code, Google Colab
 
 ---
 
 ## WORK EXPERIENCE
 
-### **Data Science Intern** | Darexia Private Limited  
+### **Data Science Intern** | Darexai private limited  
 *June 2026 – Sept 2026*
-- Architected and optimized end-to-end **data pipelines** to ingest, clean, and preprocess high-throughput multimodal and structured datasets for training real-world **Agentic AI** models.
-- Enhanced the execution accuracy and multi-step reasoning performance of **Agentic AI systems by 92%** through systematic prompt engineering, tool-calling validation schemas, and automated feedback loops.
-- Streamlined vector retrieval pipelines and real-time data ingestion flows, significantly reducing system execution latency across existing internal developer tools and client project pipelines.
-- Collaborated across **multiple concurrent client projects and internal tools**, translating business requirements into scalable feature transformations, monitoring model drift, and ensuring high data fidelity via **Python and SQL**.
+- Architected, built, and optimized end-to-end **data pipelines and ETL workflows** to ingest, clean, and preprocess high-throughput multimodal and structured datasets for training real-world **Agentic AI** models.
+- Enhanced the execution accuracy and multi-step reasoning performance of **Agentic AI systems by 92%** through systematic prompt data curation, tool-calling validation schemas, and automated evaluation feedback loops.
+- Streamlined real-time data streaming, feature extraction, and vector retrieval pipelines, significantly reducing system execution latency across existing internal developer tools and client project pipelines.
+- Collaborated across **multiple concurrent client projects and internal data tools**, translating business requirements into scalable feature transformations, monitoring model drift, and ensuring high data fidelity via **Python and SQL**.
 
 ---
 
@@ -56,9 +56,9 @@ Bilaspur, India | +91 7033375667 | [adarshgaurav1624@gmail.com](mailto:adarshgau
 ## EDUCATION
 
 ### **Guru Ghasidas Vishwavidyalaya (A Central University)** | Bilaspur, India  
-*Bachelor of Technology (B.Tech) in Computer Science and Engineering | CGPA: 7.1 / 10*  
+*Bachelor of Technology (B.Tech) in Computer Science and Engineering*  
 *Dec 2022 – May 2026*  
-**Relevant Coursework:** Machine Learning, Probability & Statistics, Data Structures & Algorithms, Database Management Systems (DBMS), Artificial Intelligence, Operating Systems, Object-Oriented Programming (Java/C++).
+**Relevant Coursework:** Machine Learning, Probability & Statistics, Data Structures & Algorithms, Database Management Systems (DBMS), Artificial Intelligence, Operating Systems, OOP in Java/C++.
 
 ---
 

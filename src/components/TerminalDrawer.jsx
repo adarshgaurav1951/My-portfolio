@@ -100,7 +100,7 @@ Deployment:    FastAPI, Git/GitHub, Docker (Basics), GCP, RESTful APIs, Linux/Ba
         newHistory.push({
           type: 'response',
           text: `EXPERIENCE RECORD:
-Darexia Private Limited — Data Science Intern (June 2026 – Sept 2026)
+Darexai private limited — Data Science Intern (June 2026 – Sept 2026)
 - Architected & optimized end-to-end data pipelines for training real-world Agentic AI models.
 - Enhanced Agentic AI system task performance by 92% via tool-calling validation & feedback loops.
 - Reduced execution latency across internal developer tools and client project pipelines.
@@ -114,8 +114,7 @@ Darexia Private Limited — Data Science Intern (June 2026 – Sept 2026)
           text: `EDUCATION:
 - B.Tech in Computer Science and Engineering (Dec 2022 – May 2026)
   Guru Ghasidas Vishwavidyalaya (Central University), Bilaspur (C.G.)
-  CGPA: 7.1 / 10
-- Senior Secondary (CBSE XII): 70% | Secondary (CBSE X): 80.88%`
+  Focus: Machine Learning, Probability & Statistics, Algorithms, DBMS (SQL)`
         });
         break;
 

@@ -138,7 +138,7 @@ export default function CaseStudyModal({ projectId, onClose }) {
                 </p>
               </div>
             </div>
-          ) : (
+          ) : isRAG ? (
             <div className="case-study-details">
               {/* Problem & Solution */}
               <div className="case-study-section">
